@@ -15,7 +15,7 @@ This function vectorizes the density matrix $|i\rangle \langle j| \to |i,j\rangl
 ## Pure dephasing
 
 The Lindblad operator that gives rise to pure dephasing dynamics is given by $\sigma_z$. Take a look the example file to see an instructive example on how to use the program in this case. 
-![example pure dephasing](https://github.com/dark-dryu/Lindblad-ME/blob/master/pure_dephasing.png)
+![example pure dephasing](https://raw.githubusercontent.com/dark-dryu/Lindblad-ME/master/pure_dephasing.png)
 
 # Dependencies
 
