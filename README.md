@@ -10,12 +10,12 @@ The function requires you to specify the Hamiltonia $H$, Lindblad operators $L_k
 This function vectorizes the density matrix $|i\rangle \langle j| \to |i,j\rangle$. Then the function computes the linear map $T_{ij} = Tr(F_i^\dagger \mathcal{L} [F_j])$ where the $F_i$ form an orthonormal basis in the space $|i,j\rangle$. This procedure allows to simply write a differential equation $|\dot{\rho(t)}\rangle = T |\rho(t)\rangle$, which is a system of ODEs which is solved with the ODE45 function included in MATLAB.
 
 
-# Example
+# Examples
 
 ## Pure dephasing
 
 The Lindblad operator that gives rise to pure dephasing dynamics is given by $\sigma_z$. Take a look the example file to see an instructive example on how to use the program in this case. 
-![example pure dephasing](pure_dephasing.png "Pure dephasign")
+![example pure dephasing](/pure_dephasing.png "Pure dephasign")
 
 # Dependencies
 
