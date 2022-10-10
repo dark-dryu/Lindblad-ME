@@ -1,3 +1,5 @@
+[![View Lindblad-ME on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/118835-lindblad-me)
+
 # Lindblad-ME
 
 This simple matlab function allows you to compute the density matrix evolution under a Lindblad Master Equation
@@ -21,6 +23,8 @@ The Lindblad operator that gives rise to pure dephasing dynamics is given by $\s
 
 In this case a time dependent Hamiltonian and decay rate is given. The Lindblad operator is still $\sigma_z$ giving rise to pure dephasing. In this case the decay rate becomes negative at some intervals where the coherence experience revivals. 
 ![example pure dephasing TD](https://raw.githubusercontent.com/dark-dryu/Lindblad-ME/master/pure_dephasing_TD.png)
-# Dependencies
 
-Dr. Cubbit MATLAB suite found in: https://www.dr-qubit.org/matlab.html
+
+
+[//]: # (# Dependencies)
+[//]: # (Dr. Cubbit MATLAB suite found in: https://www.dr-qubit.org/matlab.html)
